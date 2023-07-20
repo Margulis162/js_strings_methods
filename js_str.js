@@ -4,6 +4,7 @@ let str1 = "presto";
 const pOne = document.getElementById("one");
 const pTwo = document.getElementById("two");
 const pThree = document.getElementById("three");
+const pFour = document.getElementById("four")
 const list = document.querySelector("ul");
 //paragraph one
 num = num.toString();
@@ -20,3 +21,8 @@ for(i=0;i<str1.length; i++){
     list.appendChild(listItem);
     
 }
+
+//pharagraph four 
+pFour.innerHTML =(`Our string also starts with "p" and we can test it with <strong>startsWith("p")</strong> method it says - <strong>${str1.startsWith('p')}</strong>.
+But does it <strong>endsWith()</strong> "c"?, and that is <strong>${str1.endsWith('c')}</strong>.`);
+
