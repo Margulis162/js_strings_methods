@@ -26,3 +26,5 @@ for(i=0;i<str1.length; i++){
 pFour.innerHTML =(`Our string also starts with "p" and we can test it with <strong>startsWith("p")</strong> method it says - <strong>${str1.startsWith('p')}</strong>.
 But does it <strong>endsWith()</strong> "c"?, and that is <strong>${str1.endsWith('c')}</strong>.`);
 
+
+
